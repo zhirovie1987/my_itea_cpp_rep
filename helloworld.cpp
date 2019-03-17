@@ -14,5 +14,6 @@ int main () {
   	printf("This is float literal %f\n", 1.25e1);
   	printf("This is char literal %c\n", 'c');
   	printf("This is string literal %s\n", "string");
+printf("This is string literal %s\n", "new_line added");
 return 0;
 }
