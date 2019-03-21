@@ -8,6 +8,7 @@ int main () {
 	unsigned int summ = 0;
 	unsigned int counter = 0;
 	unsigned int temp = 0;
+	float middle = 0;
 	
 	cin>>dec_number;
 	
@@ -17,6 +18,8 @@ int main () {
 		dec_number /= 10;
 		++counter;
 	}
-	cout<<summ<<endl<<counter;
+	
+	middle = summ / (float)counter;
+	cout<<summ<<endl<<counter<<endl<<middle;
 	return 0;
 }
