@@ -27,7 +27,7 @@ int main () {
 	D = B * B - coeff_4 * A * C;
 	
 	if (D < 0) {
-		cout << -B + csqrtf(D);//cout << "complex result expected. try to use complex.h ;-)";	
+		cout << "complex result expected. try to use complex.h ;-)";	
 	}	
 	else {
 		X_Pos = (-B + sqrt(D)) / coeff_2 * A;
